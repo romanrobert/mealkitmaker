@@ -350,7 +350,7 @@ a {
 
 .benefits {
   width: 70%;
-  max-width: 100vh;
+  max-width: 90rem;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
