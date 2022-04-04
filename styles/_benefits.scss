@@ -27,14 +27,17 @@
 }
 
 .benefits__cards {
+  //margin: 7rem auto;
+  //display: grid;
+  //grid-template-columns: repeat(auto-fill, minmax(20rem, 90px));
+  //grid-gap: 1rem;
+  //justify-content: center;
+  //align-items: center;
   margin: 7rem auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 90px));
-  grid-gap: 1rem;
+  display: flex;
   justify-content: center;
   align-items: center;
-
-  // background-color: navajowhite;
+  gap: 1rem;
 }
 
 .benefits__card {

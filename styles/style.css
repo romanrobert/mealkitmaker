@@ -384,17 +384,16 @@ a {
 
 .benefits__cards {
   margin: 7rem auto;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(20rem, 90px))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(20rem, 90px));
-  grid-gap: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 1rem;
 }
 
 .benefits__card {
